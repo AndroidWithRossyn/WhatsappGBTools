@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.statuswa.fasttalkchat.toolsdownload">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE " />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+    <uses-permission android:name="MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <queries>
+        <package android:name="com.whatsapp" />
+        <package android:name="com.whatsapp.w4b" />
+        <package android:name="com.eterno.shortvideos" />
+        <package android:name="io.chingari.app" />
+        <package android:name="com.facebook.katana" />
+        <package android:name="com.mitron.tv" />
+        <package android:name="com.roposo.android" />
+        <package android:name="in.mohalla.sharechat" />
+        <package android:name="com.kwai.bulldog" />
+        <package android:name="com.vimeo.android.videoapp" />
+        <package android:name="com.instagram.android" />
+        <package android:name="video.like" />
+        <package android:name="com.twitter.android" />
+        <package android:name="com.zhiliaoapp.musically.go" />
+        <package android:name="com.zhiliaoapp.musically" />
+        <package android:name="com.next.innovation.takatak" />
+    </queries>
+
+    <application
+        android:name="com.statuswa.fasttalkchat.toolsdownload.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WhatsappGBTools2022"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:targetApi="31">
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.ExitActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.PrivacyPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.ThankuActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.TextToEmojiActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.fackChat.Calls"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.fackChat.EditChatUserProfile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.fackChat.EditMessageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.fackChat.GroupProfile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.fackChat.MainFackChat"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.fackChat.UserChat"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.fackChat.Wallpaper"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.captionStatusShare.Captionitem"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.captionStatusShare.Captionstatus"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.fackChat.ChatProfile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.cleaner.WACleanMainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.WhatsappDeletedActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.ShakerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.DownloadActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.FBLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.FullViewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.VideoPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.SocialMediaPages.JoshActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.SocialMediaPages.ChingariActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.SocialMediaPages.MitronActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.SocialMediaPages.MXTakaTakActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.SocialMediaPages.MojActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.SocialMediaPages.LikeeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.SocialMediaPages.TikTokActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.TextRepeaterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.EmoticonsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.DirectChatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.WebActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.SocialMediaPages.WhatsappActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.SocialMediaPages.ReposeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.SocialMediaPages.SharechatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.SocialMediaPages.SnackVideoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.SocialMediaPages.FacebookActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.SocialMediaPages.TwitterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.SocialMediaPages.InstagramActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.StatusSaverOfAllAppActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.VPNActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.statuswa.fasttalkchat.toolsdownload.activity.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.statuswa.fasttalkchat.toolsdownload.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <receiver
+            android:name="com.statuswa.fasttalkchat.toolsdownload.ShakeReceiver"
+            android:exported="true"
+            android:permission="TODO">
+            <intent-filter>
+                <action android:name="shake.detector" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.statuswa.fasttalkchat.toolsdownload.shake_Detector.ShakeService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="TODO" />
+        <service
+            android:name="com.statuswa.fasttalkchat.toolsdownload.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/app_icon" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/adsTagBg" />
+    </application>
+
+</manifest>

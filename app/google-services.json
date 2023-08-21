@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "194355620622",
+    "project_id": "allinone-76b27",
+    "storage_bucket": "allinone-76b27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194355620622:android:55e6b7dd8dfe3cddf1c55f",
+        "android_client_info": {
+          "package_name": "com.statuswa.fasttalkchat.toolsdownload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194355620622-q5em6js2is51fa10fqdr671vm9c1ik7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOKpr5f-uTDGJmdZ3AZooquyhMY8QLtiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194355620622-q5em6js2is51fa10fqdr671vm9c1ik7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

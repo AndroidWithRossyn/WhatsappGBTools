@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen"
+    tools:context=".Fragment.WinkFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_above="@+id/rl"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/native_ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.statuswa.fasttalkchat.toolsdownload.shimer.ShimmerFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+            </com.statuswa.fasttalkchat.toolsdownload.shimer.ShimmerFrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    >
+
+</RelativeLayout>

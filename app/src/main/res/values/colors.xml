@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#00A784</color>
+    <color name="purple_500">#00A784</color>
+    <color name="purple_700">#00A784</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#AFAEAE</color>
+    <color name="view">#DFDFDF</color>
+    <color name="green_tab">#3B9A48</color>
+    <color name="green_tab_dark">#23572A</color>
+    <color name="adsNativeBg">#191919</color>
+    <color name="adsTagBg">#00A784</color>
+    <color name="button_two">#00A784</color>
+    <color name="txt_color">#5C5C5C</color>
+    <color name="brand_red">#ffd51826</color>
+    <color name="colorPrimaryss">#ff17a878</color>
+    <color name="colorPrimaryDarkss">#ff149369</color>
+
+    <color name="colorAccent">#00A784</color>
+    <color name="colorPrimary">#00A784</color>
+    <color name="colorPrimaryDark">#00A784</color>
+    <color name="colorPrimaryz">#F8F6F6</color>
+
+    <color name="default_circular_color">#ffffffff</color>
+    <color name="default_circular_progress_color">#ff17a878</color>
+    <color name="fcolorAccent">#ff000000</color>
+    <color name="fcolorPrimary">#ff006157</color>
+    <color name="fcolorPrimaryDark">#ff005047</color>
+    <color name="textcolor">#ff99a6ad</color>
+    <color name="statusTextColor">#2B2A2A</color>
+</resources>
